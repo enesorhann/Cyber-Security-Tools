@@ -37,9 +37,9 @@ def get_user_input():
     (options,arguments) = parse_object.parse_args()
 
     if not options.target_ip:
-        print("Enter Target IP")
+        print("Enter Target IP address") #Virtual address
     if not options.gateway_ip:
-        print("Enter Gateway IP")
+        print("Enter Gateway IP address") #Virtual address
     return options
 
 user_ips = get_user_input()
