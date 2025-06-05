@@ -10,7 +10,7 @@ def get_user_input():
 
     (user_input,arguments) = parse_object.parse_args()
     if not user_input.ip_address:
-        print("Enter IP Address")
+        print("Enter IP Address") #Virt Address
     return user_input
 
 def scan_my_Network(ip):
